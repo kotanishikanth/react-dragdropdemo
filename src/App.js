@@ -15,6 +15,7 @@ React.useLayoutEffect(() => {
   })
 }, [])
 
+
   const dragHandler = e => {
     e.dataTransfer.setData('item', e.target.width)
     console.log("Drag", e);
